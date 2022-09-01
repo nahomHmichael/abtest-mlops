@@ -1,8 +1,9 @@
 # 10 Academy Batch 6 Weekly Challenge: Week 2
 
-# A/B Hypothesis Testing: Ad campaign performance
+# A/B Hypothesis Testing: Ad campaign performance - using Machine Learning
 
-This repository contains the A/B testing implementations for Classical and Sequential testing approaches. A/B testing allows us to compare two or more version of a given website and services which one performs better than the other.
+A/B testing allows us to compare two or more version of a given website and services which one performs better than the other.
+This repository contains the A/B testing implementations of A/B testing using ML and MLOPs.
 
 ## Business objective
 
