@@ -1,6 +1,4 @@
 [core]
-    remote = dvc_data
-['remote "dvc-ad-data"']
-    url = /data
-['remote "dvc_data"']
-    url = tmp/dvc_data
+    remote = storage
+['remote "storage"']
+    url = gdrive://1Qwhs22KV5-hdeMZ-1coPd65tJ7SQ3IJd
