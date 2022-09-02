@@ -1,8 +1,12 @@
 [core]
-    remote = dvcdata
+    remote = myremote
 ['remote "dvc-ad-data"']
     url = /data
 ['remote "dvc_data"']
     url = tmp/dvc_data
 ['remote "dvcdata"']
     url = https://drive.google.com/drive/my-drive
+['remote "myremote"']
+    url = gdrive://abtdata
+['remote "dataremote"']
+    url = gdrive://1M14GUeo0ov92yurDXmx__bYhmAIcphuF
