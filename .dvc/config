@@ -1,4 +1,5 @@
 [core]
+<<<<<<< HEAD
     remote = myremote
 ['remote "dvc-ad-data"']
     url = /data
@@ -10,3 +11,8 @@
     url = gdrive://abtdata
 ['remote "dataremote"']
     url = gdrive://1M14GUeo0ov92yurDXmx__bYhmAIcphuF
+=======
+    remote = storage
+['remote "storage"']
+    url = gdrive://1Qwhs22KV5-hdeMZ-1coPd65tJ7SQ3IJd
+>>>>>>> d75b429f918cd58921c30caa48a875768888f7e5
