@@ -1,0 +1,157 @@
+auction_id,experiment,date,hour,device_make,platform_os,yes
+00b6fadb-10bd-49e3-a778-290da82f7a8d,control,2020-07-08,4,Samsung SM-A202F,6,1
+023458f7-122d-475f-9525-1b9a3cc7a033,control,2020-07-03,15,MRD-LX1,6,0
+023ec7b5-cb8f-49a5-995f-e0d7c2f702e5,exposed,2020-07-09,13,Samsung SM-G935F,6,1
+03948b84-b5b1-4f26-81fc-e953218aef1a,control,2020-07-09,20,Samsung SM-G930F,6,1
+04bb7622-8ac6-4cf8-bbab-31cd31698fe7,control,2020-07-03,15,Samsung SM-G973F,6,0
+04ce7ee1-a4be-4c40-82a9-23f255aa3395,control,2020-07-03,15,ELE-L09,6,1
+07a2012e-c818-4bbc-a0ac-dce37efb1067,exposed,2020-07-05,6,Samsung SM-G960F,6,0
+08d3e8fe-cf14-4a1d-8097-9965d4596104,exposed,2020-07-09,19,VOG-L09,6,0
+0946d472-f247-4fc8-a5ed-9d76f3c73bfa,control,2020-07-05,10,Samsung SM-G960F,6,1
+0ae1d6a1-545c-4aa0-841e-e6213623bb66,control,2020-07-06,8,Samsung SM-A705FN,6,0
+0cbd75c3-3935-4a60-aa51-6342739f27b9,exposed,2020-07-10,2,Samsung SM-G950F,6,0
+0cd88b3e-92fe-4a4b-b0a4-77587b33bc2e,control,2020-07-03,15,ANE-LX1,6,0
+0ded142b-aadd-45aa-9343-8b1c7b04df8c,control,2020-07-03,15,POT-LX1,6,0
+1134407e-af87-434f-ac7c-299dff13dae2,control,2020-07-04,21,Samsung SM-A705FN,6,0
+11396a6c-4075-4918-bd1a-83fdef15709f,control,2020-07-08,22,Samsung SM-G950F,6,1
+13e225de-5cb9-4d9b-96fb-aa137c643ce3,control,2020-07-03,15,Samsung SM-G930F,6,1
+17e82427-a84f-4f98-a261-aa5e6c625c5b,control,2020-07-03,15,OnePlus ONEPLUS A5000,6,1
+1862cede-8050-4913-a9f0-45381c323c9e,control,2020-07-03,15,STF-L09,6,0
+19ba8dc7-b5e2-4d2d-9eeb-33c40d2fbaa6,exposed,2020-07-03,12,VOG-L29,6,0
+1b35d5f4-08bb-44f2-a091-41216b37e6df,exposed,2020-07-06,7,Samsung SM-G981B,6,0
+1d3e722e-592f-4d99-96b6-e24ab03197ec,control,2020-07-07,16,POT-LX1,6,0
+1d4ecd52-4063-43b8-83ae-c1e75d3e6b6e,exposed,2020-07-08,5,ELE-L29,6,0
+21ced590-c293-4d15-b44f-4efe0b0d7a22,control,2020-07-03,15,Samsung SM-G950F,6,1
+2460cae4-da53-4b93-8021-bb4caefcece6,control,2020-07-05,4,Samsung SM-G960F,6,0
+25fae344-25ee-4fb3-a4ad-582e25fb7f51,control,2020-07-03,15,VOG-L09,6,0
+264212d3-89ab-4d68-84e9-f5fdd0df47f3,control,2020-07-10,15,Generic Smartphone,6,1
+2ad4f2d4-6e6a-44e3-a45f-84b9ce044e84,control,2020-07-10,7,Samsung SM-G950F,6,0
+31f4af17-9d59-4dce-9930-f57e5a65cc4e,exposed,2020-07-09,7,Samsung SM-G986B,6,1
+32fcfa6d-bde7-4e59-982f-c0812fb38098,control,2020-07-03,15,Samsung SM-G973F,6,0
+33a6fe42-961e-4f91-abd3-215ee08d1773,exposed,2020-07-08,15,VOG-L29,6,0
+3413350e-0885-4d5f-b40e-7bc05a9c3ec1,control,2020-07-03,15,Samsung SM-A705FN,6,0
+34abde6e-7d4c-46e5-9060-7226a5b4ff2a,control,2020-07-03,15,Samsung SM-A705FN,6,1
+34da343c-b2cf-452a-a12d-ea3475b4b426,control,2020-07-03,15,Pixel 3,6,1
+38718045-df8c-42d9-8c48-efc75064dd32,exposed,2020-07-09,13,Generic Smartphone,6,0
+39e29edd-e13b-4f73-ad43-aa9087fccb90,control,2020-07-03,15,Generic Smartphone,6,1
+3b6e7253-2a29-4642-b122-2e4a206140dc,control,2020-07-06,2,Generic Smartphone,6,0
+3c47e2ff-0188-4e56-91a0-ac70802df3a4,control,2020-07-07,3,Samsung SM-J330G,6,0
+3d126856-74a9-4921-8ae8-2350705b7db5,control,2020-07-03,15,Samsung SM-A715F,6,1
+3fd82a7c-faab-4aaa-9cf6-f04f301a2896,control,2020-07-09,10,I3312,6,0
+3ff3f810-3aa1-42bc-b8a7-fcd894646301,control,2020-07-03,15,POT-LX1,6,1
+4089f5e5-fde0-422f-b147-5fc5903cdef8,control,2020-07-10,10,G3311,6,0
+41283b76-9b69-47d0-b401-00d7148ba47d,control,2020-07-03,15,Samsung SM-G950F,6,1
+4170b5fa-c561-4ef2-9242-a92c8e4c6342,control,2020-07-04,20,Samsung SM-G970F,6,1
+44c43a7f-cdda-4df9-a197-bb624eff2e19,exposed,2020-07-04,13,Samsung SM-G950F,6,0
+4664292e-2a9c-421f-9a21-b971b3f97d52,control,2020-07-04,8,XiaoMi Redmi 6A,6,0
+47c83616-f7fe-4c25-a865-5ed5d8528b2e,control,2020-07-10,12,ANE-LX1,6,1
+4958d8ee-f825-491d-9fd4-5fdf00a9ca16,exposed,2020-07-08,15,SNE-LX1,6,0
+49699776-8eae-4045-b4d5-093c5bccf930,control,2020-07-09,19,Samsung SM-N976B,6,0
+4e0bbe87-693f-4836-920d-51b84b0622eb,control,2020-07-03,15,ANE-LX1,6,1
+4ebdf633-b593-4ea7-ba5e-b185d3044a8d,exposed,2020-07-09,10,Samsung SM-G935F,6,0
+4ecd792b-08d9-4f7e-85ea-3418afc71a90,control,2020-07-03,15,Samsung SM-G988B,6,1
+4f071ba2-33aa-4fa2-b539-97d9bacc322c,control,2020-07-08,21,Samsung SM-A405FN,6,1
+50c19ba8-23a6-4def-b71e-4a8f5a0b52a6,control,2020-07-03,15,Samsung SM-A520F,6,0
+52b30299-274d-4602-8e85-e1714fc6c9f6,control,2020-07-09,7,Samsung SM-J320FN,6,0
+52eebe05-9c77-43b5-8dd5-b6e0c789b831,exposed,2020-07-08,18,Samsung SM-G965U1,6,0
+53bc50db-0d99-4706-b0e6-42c5acb61487,control,2020-07-03,15,Samsung SM-G960F,6,0
+551555e4-558d-4304-b8d9-acdde52a2393,control,2020-07-08,8,Samsung SM-G973F,6,1
+5c8a6e4d-3df4-4bb8-aff6-464f00b6ec47,control,2020-07-09,10,Samsung SM-G973F,6,0
+5fb83523-1c8c-4ad1-8239-d262fa3b83dd,control,2020-07-03,15,Samsung SM-G973F,6,1
+6090648b-5010-49e1-b231-024be0fdb7d8,exposed,2020-07-08,22,Samsung SM-G960F,6,0
+640467c6-d127-449b-ae10-abe6c2a81cb3,exposed,2020-07-04,14,CLT-L09,6,0
+65bdd9fd-60f5-4240-b6b0-fe48e46831a3,control,2020-07-09,13,Samsung SM-G960F,6,0
+665b1da1-7c18-4533-9377-00f527decd8a,exposed,2020-07-09,20,Samsung SM-A705FN,6,0
+67233543-6f8c-4f7d-b38f-8de9e1bda51a,control,2020-07-08,14,Samsung SM-A520F,6,0
+67462dcc-3c3c-4640-b3f5-f9b0cfa2ce0a,control,2020-07-09,10,Samsung SM-G960F,6,1
+6a5bd09d-b9f8-4e77-a4e1-4e781929414a,control,2020-07-03,15,MRD-LX1,6,1
+6d46a7c0-27d9-4156-bb04-64dd087f6a8a,exposed,2020-07-06,10,Samsung SM-N950F,6,1
+6d7bc840-4247-4d7c-b135-81a2ce9d2a27,control,2020-07-03,15,MAR-LX1A,6,0
+6e7535ab-264b-42d8-89cd-b69628f66d2a,control,2020-07-04,8,Samsung SM-G960F,6,1
+6ecd9456-28af-4bf8-a9c0-83fce231d4ae,control,2020-07-04,15,Samsung SM-G973F,6,1
+6efc5162-9915-4363-a8ff-e4e4dab27f76,control,2020-07-03,15,Samsung SM-G973F,6,1
+7115c8e3-1fa8-4b24-b73b-de45a65b8199,control,2020-07-05,18,Samsung SM-G960F,6,1
+723f044f-676b-4e85-a644-d79fa43070b6,control,2020-07-08,18,Samsung SM-G977B,6,0
+74322817-0132-43d0-a7ee-368bd2587dc4,control,2020-07-04,0,XiaoMi MI 8 Pro,6,1
+756a5b05-eb54-4a4b-9d73-376854c452ab,control,2020-07-09,16,Samsung SM-N970F,6,0
+7618f84a-b89a-4581-ac8b-87ab7b0bf87e,exposed,2020-07-04,6,ELE-L09,6,1
+76cf4eb9-b3bf-417f-834d-3ae605810fcb,control,2020-07-08,20,ELE-L09,6,0
+77137249-edf0-48b0-9f85-7972cc0871a9,control,2020-07-10,17,ELE-L29,6,1
+7748f140-0944-4d10-a939-961a4fbf5692,control,2020-07-08,13,Samsung SM-G975F,6,0
+790dd86e-9234-441b-86c9-50f738735dee,control,2020-07-03,15,Samsung SM-G950F,6,0
+7945f382-6d4a-4487-9311-27004eed1012,control,2020-07-05,14,MAR-LX1A,6,1
+7ba079a1-cc77-424e-ab5b-617a9294dac3,control,2020-07-04,12,Nokia$2$3,6,0
+7d6e7872-c491-4fa5-9436-87e13c3e32dc,exposed,2020-07-08,21,Samsung SM-G950F,6,0
+7f1976d1-c6e0-47dd-88e5-9b9444371efd,control,2020-07-06,1,MAR-LX1A,6,0
+83e913ff-69cf-4a38-b22b-81bc7d6c8976,exposed,2020-07-08,22,Samsung SM-G980F,6,0
+85308108-0ccf-4b2b-9157-bdd4ea63d1c7,exposed,2020-07-04,10,Samsung SM-G965F,6,1
+8723a7a4-cd02-4a3d-b9e3-6eff47e78f61,exposed,2020-07-10,14,Generic Smartphone,6,1
+88cf5bf7-f0e3-4a38-8c21-abb960a62752,control,2020-07-04,6,Samsung SM-G960F,6,1
+895e5634-5e29-4bfb-8183-5e412877d691,control,2020-07-10,0,Samsung SM-G950F,6,0
+8f27f2e9-10f6-409c-b536-f3624ffc0799,control,2020-07-03,15,Samsung SM-A505FN,6,1
+969b46ce-480b-476f-88ee-4f4c1d909597,control,2020-07-10,15,Samsung SM-G960F,6,1
+96a6556e-09aa-4d0f-8e62-48124e9a3be0,control,2020-07-09,12,Samsung SM-G950F,6,1
+96b855a6-b831-41ee-93d8-869a4c57848c,control,2020-07-05,7,Samsung SM-G977B,6,1
+9839dfb9-13ee-4361-85f6-7e132ce30396,control,2020-07-03,15,Samsung SM-G980F,6,0
+98814422-235a-410c-a4c6-70643ecca103,exposed,2020-07-07,21,Samsung SM-A105FN,6,1
+98e3f4e2-0e57-435d-8868-a6a562d839b3,control,2020-07-03,15,MAR-LX1A,6,0
+99740d86-02c1-4cb4-aeca-827cd6f70cfb,control,2020-07-04,22,LG-$2,6,1
+9b30f3e8-68f5-4f7a-96c8-fcfe10ffb271,control,2020-07-03,15,Samsung SM-G960F,6,0
+9d848957-4df1-4aca-9b4d-9a450f4280b8,control,2020-07-03,15,Samsung SM-G960F,6,0
+a0d2815e-4684-4040-bd9a-fc5e413929dd,exposed,2020-07-09,20,CLT-L09,6,0
+a69c0804-8767-4cd2-933f-4c749f22c9d7,exposed,2020-07-10,4,I3312,6,0
+a856a48d-7058-4040-91bf-efd0e66bccbf,exposed,2020-07-03,11,Generic Smartphone,6,1
+a8fe5db9-9a91-4d6d-a5fc-b418410bcad2,control,2020-07-10,5,Pixel 3,6,1
+a9e6ee56-7444-4706-bb2c-b6b8b24da285,exposed,2020-07-10,0,Samsung SM-G975F,6,1
+ab2a2ff1-f381-43fc-8637-e0db1d54c423,exposed,2020-07-04,12,Samsung SM-A300FU,6,0
+ad0c55d1-8da9-499f-bb5e-add8101e7f97,exposed,2020-07-07,9,Generic Smartphone,6,0
+ae7bfab7-36e5-4910-898f-e6d5075ce940,control,2020-07-05,16,Samsung SM-G955F,6,1
+b1c061db-8844-4d11-b16e-37cd421eff02,control,2020-07-08,22,Samsung SM-G973F,6,0
+b2f198b5-2cca-436f-89a6-3a2c1a021c0a,control,2020-07-06,0,Pixel 3,6,1
+b32ca27f-d327-469d-999e-bd85a589f224,control,2020-07-03,15,Samsung SM-G965F,6,0
+b4eba3d3-4308-4ec3-a91f-ccbc76408353,exposed,2020-07-05,12,Samsung SM-G960F,6,1
+b5ea386e-eb3e-448c-aa82-ffa1e1da483e,control,2020-07-04,9,Samsung SM-G935F,6,0
+b787f03b-8eba-4fec-ba2d-e9f5fc031e75,control,2020-07-10,0,Samsung SM-G960F,6,0
+bb3843f6-6177-470a-b829-92c77cb64302,control,2020-07-08,11,Samsung SM-N950F,6,0
+c0cf2c7f-29e3-4e0d-a9b5-353039067a09,exposed,2020-07-04,2,ANE-LX1,6,1
+c164494f-54fb-4e8f-b421-fc6b75fb783f,control,2020-07-04,10,DLI-L22,6,0
+c2bb1c26-1c76-4d5f-9a13-3e10d605f4e1,control,2020-07-03,15,Samsung SM-A705FN,6,1
+c774d3d8-a33a-478b-9a1e-7c770d02fe8f,exposed,2020-07-10,9,Generic Smartphone,6,1
+cba5d5f9-1b58-47c9-a9a1-bd0b7ddc2107,control,2020-07-10,1,POT-LX1,6,1
+ce03caeb-497d-403b-84c4-5d7592b139db,exposed,2020-07-10,6,Generic Smartphone,6,0
+cf56c578-7db2-416c-9db4-af5f8a33a2c3,control,2020-07-03,15,Samsung SM-G975F,6,0
+cf94b80b-b330-4a55-ac49-96718bf35aff,control,2020-07-08,23,VOG-L29,6,1
+d2005084-1cb7-48f2-8215-4c9c86e7e516,control,2020-07-10,6,Samsung SM-G950F,6,0
+d3b792a6-d67b-44c0-840a-1f3cd1a00782,exposed,2020-07-06,7,Samsung SM-G950F,6,1
+d67b73d4-077e-437e-a046-0d6973fe12c8,exposed,2020-07-08,15,PRA-LX1,6,0
+d7753bf9-2e8a-4a9b-b88f-bb543f49e42a,control,2020-07-03,15,Samsung SM-G960F,6,0
+dba0e61f-f031-4f6a-9dee-669bf92da30e,control,2020-07-03,15,Samsung SM-A320FL,6,0
+dcfebfae-200f-45f9-92bd-43201663ba0a,control,2020-07-04,15,Samsung SM-G950F,6,0
+dd5b63f1-b5a3-4b6b-a894-8510452b62d5,exposed,2020-07-07,13,Samsung SM-A600FN,6,1
+dd8c27c8-90c0-4818-9bf9-7e60dbf40068,control,2020-07-03,15,XiaoMi MI 6,6,0
+dd9d1895-93e5-49a0-94b4-2dfa020feeb4,control,2020-07-04,12,ANE-LX1,6,0
+de09926b-944f-45a9-aff0-b91d2e127d85,control,2020-07-09,20,Samsung SM-G973F,6,0
+e1424047-9dad-41f3-8dc6-058080597cc0,control,2020-07-04,20,X4_Soul_Infinity_Z,6,0
+e373d3d0-5aad-41f7-af4f-0d892b2f9cc3,exposed,2020-07-08,7,Samsung SM-N976B,6,1
+e4f9642e-a406-441c-810b-cd258417b119,control,2020-07-09,9,PCT-L29,6,1
+e531bd16-3706-4042-8064-3ae47c953861,exposed,2020-07-08,18,LYA-L09,6,0
+e55ac30f-9267-4cf8-bc86-3886f4b584b1,control,2020-07-04,11,Samsung SM-G970F,6,1
+e7063785-87a7-46ca-89cc-6535cbedffbb,control,2020-07-09,14,Samsung SM-G973F,6,0
+e90173a7-d835-417b-9319-55e95dc791ca,control,2020-07-07,9,Samsung SM-G935F,6,1
+ea52fbf9-292e-4a6a-a80a-9c0529abf866,control,2020-07-10,14,VFD 720,6,0
+ecdd7460-b216-41ff-b44a-7ccc7169300a,control,2020-07-03,15,Samsung SM-G981B,6,1
+eee959a9-70f6-436a-9c50-b4ce1b08203b,control,2020-07-03,15,MAR-LX1A,6,1
+f14c1372-fa33-4c49-8656-28d635cead96,exposed,2020-07-09,3,Samsung SM-J610G,6,0
+f166ded5-56c7-45b5-9b57-144301947e63,control,2020-07-03,15,G3311,6,1
+f1768408-0b98-4c1c-b1ed-0d01cf2b69ab,control,2020-07-08,15,FIG-LX1,6,1
+f1b2ff1e-f781-446e-a8c4-c53daea7e9fb,exposed,2020-07-06,5,VTR-L09,6,0
+f206808c-7580-43c4-be0d-53580214a0e2,control,2020-07-09,20,POT-LX1,6,0
+f21deda7-323d-4bf6-aa06-54da6d562a2a,exposed,2020-07-04,13,VCE-L22,6,1
+f27fb7fa-fe23-43d4-bcd0-8baa18774dd3,control,2020-07-03,15,Pixel 2,6,1
+f5ebaa8d-a198-4963-a285-6260010f894e,exposed,2020-07-03,9,Generic Smartphone,6,0
+f7776a85-7489-4a0b-a455-47cd2d65dc2d,control,2020-07-03,15,Samsung SM-N970F,6,1
+f897c7ba-ffcf-4722-a0d3-d2b60258ab6b,control,2020-07-03,15,Generic Smartphone,6,0
+fa8ed69f-6b89-47d2-8ece-c5e1f4973207,control,2020-07-04,2,Samsung SM-G930F,6,0
+fb546a62-59f9-4d47-ae03-818e38f90107,control,2020-07-09,8,POT-LX1,6,0
+fb859fbe-dafe-4052-8a16-6c5d2e26fb94,control,2020-07-10,10,XiaoMi Redmi S2,6,1
+fd86fc6b-3420-4f81-9df0-98fa1f15abf5,exposed,2020-07-08,17,Samsung SM-G965F,6,0
