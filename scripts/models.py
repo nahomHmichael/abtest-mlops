@@ -40,7 +40,6 @@ class ML_Models:
         print(f'Result of {name[0]}\n')
         print(results)
         print(np.mean(results),'\n')
-        print('#################################')
         print('\n')
 
 
