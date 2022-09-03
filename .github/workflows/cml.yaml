@@ -19,6 +19,6 @@ jobs:
               run: |
                   # Your ML workflow goes here
                   pip install -r requirements.txt
-                  python ../../scripts/train_logReg.py
+                  python Group-12-A-B-Hypothesis-Testing/abtest-mlops/scripts/train_logReg.py
                   echo "MODEL METRICS"
                   cat metrics.txt
