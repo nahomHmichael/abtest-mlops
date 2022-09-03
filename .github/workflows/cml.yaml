@@ -19,6 +19,6 @@ jobs:
               run: |
                   # Your ML workflow goes here
                   pip install -r requirements.txt
-                  python ..\..\scripts/train_logReg.py
+                  python scripts/train_logReg.py
                   echo "MODEL METRICS"
                   cat metrics.txt
