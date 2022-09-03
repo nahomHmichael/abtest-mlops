@@ -33,24 +33,9 @@ import dvc.api
 #     repo = repo,
 #     rev = version
 # )
-mlflow.set_experiment('Linear Regression model ')
+mlflow.set_experiment('Logistic Regression model ')
 
 
-def encode_labels(df):
-    date_encoder = preprocessing.LabelEncoder()
-    device_encoder = preprocessing.LabelEncoder()
-    browser_encoder = preprocessing.LabelEncoder()
-    experiment_encoder = preprocessing.LabelEncoder()
-    aware_encoder = preprocessing.LabelEncoder()
-    
-    df['date'] = date_encoder.fit_transform(df['date'])
-    df['device_make'] = device_encoder.fit_transform(df['device_make'])
-    df['browser'] = browser_encoder.fit_transform(df['browser'])
-    df['experiment'] = experiment_encoder.fit_transform(df['experiment'])
-    df['browser'] = aware_encoder.fit_transform(df['browser'])
-    df['yes'] = aware_encoder.fit_transform(df['yes'])
-    
-    return df    
 
 
 def feature_data(df):
@@ -81,38 +66,35 @@ if __name__ == "__main__":
 
     # cleaned_data = encode_labels(df)
 
-    # Split the data into training and test sets. (0.75, 0.25) split.
-    train, test = train_test_split(data)
+    X = data.iloc[:,:-1] # Features
+    y = data.yes # Target variable
+    train_x, test_x, train_y, test_y = train_test_split(X, y, test_size=0.25, random_state=16)
 
-    # FIXME: change the predicted column to the column of our target in the dataset
-    # The predicted column is "quality" which is a scalar from [3, 9]
-    train_x = train.drop(["yes"], axis=1)
-    test_x = test.drop(["yes"], axis=1)
-    train_y = train[["yes"]]
-    test_y = test[["yes"]]
 
-    alpha = float(sys.argv[1]) if len(sys.argv) > 1 else 0.5
-    l1_ratio = float(sys.argv[2]) if len(sys.argv) > 2 else 0.5
+
+
+
+    # instantiate the model (using the default parameters)
+    logreg = LogisticRegression(random_state=16)
+
 
     # TODO: This will be changed to our model
     with mlflow.start_run():
-        lr = ElasticNet(alpha=alpha, l1_ratio=l1_ratio, random_state=42)
-        lr.fit(train_x, train_y)
 
-        predicted_qualities = lr.predict(test_x)
+            # fit the model with data
+        logreg.fit(train_x, train_y)
+
+        predicted_qualities = logreg.predict(test_x)
 
         (rmse, mae, r2) = eval_metrics(test_y, predicted_qualities)
 
 
-        print("Elasticnet model (alpha=%f, l1_ratio=%f):" % (alpha, l1_ratio))
+        # print("Elasticnet model (alpha=%f, l1_ratio=%f):" % (alpha, l1_ratio))
         print("  RMSE: %s" % rmse)
         print("  MAE: %s" % mae)
         print("  R2: %s" % r2)
-        print(predicted_qualities)
-        # print("  Accuracy: %s" % metrics.accuracy_score(test_y,predicted_qualities))
+        print("  Accuracy: %s" % metrics.accuracy_score(test_y,predicted_qualities))
 
-        mlflow.log_param("alpha", alpha)
-        mlflow.log_param("l1_ratio", l1_ratio)
         mlflow.log_metric("rmse", rmse)
         mlflow.log_metric("r2", r2)
         mlflow.log_metric("mae", mae)
@@ -126,6 +108,6 @@ if __name__ == "__main__":
             # There are other ways to use the Model Registry, which depends on the use case,
             # please refer to the doc for more information:
             # https://mlflow.org/docs/latest/model-registry.html#api-workflow
-            mlflow.sklearn.log_model(lr, "model", registered_model_name="ElasticnetWineModel")
+            mlflow.sklearn.log_model(logreg, "model", registered_model_name="ElasticnetWineModel")
         else:
-            mlflow.sklearn.log_model(lr, "model")
+            mlflow.sklearn.log_model(logreg, "model")
