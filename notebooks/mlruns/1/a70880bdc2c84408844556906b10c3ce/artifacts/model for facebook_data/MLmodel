@@ -1,0 +1,16 @@
+artifact_path: model for facebook_data
+flavors:
+  python_function:
+    env: conda.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    python_version: 3.10.4
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.1.2
+mlflow_version: 1.28.0
+model_uuid: 7337ba9df4ff45d7bc08f3bb41da15ea
+run_id: a70880bdc2c84408844556906b10c3ce
+utc_time_created: '2022-09-03 19:50:41.909001'

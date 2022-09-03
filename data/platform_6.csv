@@ -1,0 +1,18 @@
+auction_id,experiment,date,hour,device_make,browser,yes
+23b2028c-72ed-43b3-a2d7-d772b2d4d478,exposed,2020-07-03,8,iPhone,Mobile Safari,0
+54a62f37-0c4d-4300-a063-1c6aa99244e5,control,2020-07-03,15,iPhone,Mobile Safari,0
+54a68ad2-eed9-408e-9088-ddecfa64b0fd,control,2020-07-03,15,iPhone,Mobile Safari UI/WKWebView,0
+688aaac1-535e-417a-a8d4-a529b033cbfa,control,2020-07-04,3,iPhone,Mobile Safari,1
+7c003bed-32c3-4236-abf0-f571debe769b,exposed,2020-07-05,3,iPhone,Mobile Safari,1
+8800e2cd-984d-4072-a6eb-1fbb597750be,exposed,2020-07-08,5,iPhone,Mobile Safari,0
+95ecf46d-b3d2-46c3-b3ad-14ce40a9ebc4,control,2020-07-10,14,iPhone,Mobile Safari UI/WKWebView,0
+97551eb7-3e6e-42ba-b6b4-c57e779c3078,control,2020-07-04,12,iPhone,Mobile Safari,0
+9b3af700-b1f9-47a3-a510-a939e06af5ae,control,2020-07-06,1,iPhone,Mobile Safari,0
+a73ec6ae-0524-459a-bdf8-5ab9f04c213c,control,2020-07-09,9,iPhone,Mobile Safari,1
+aa3d1410-253d-4c4c-b144-5bc68c498ebf,control,2020-07-03,15,iPhone,Mobile Safari,0
+c50ab58c-e978-4cd5-8692-639bbd8521ea,control,2020-07-03,15,iPhone,Mobile Safari,0
+cb5daf2f-2bcf-4410-92e9-bc9945145bfc,control,2020-07-04,11,iPhone,Mobile Safari,0
+dba2b1a8-cc0c-4e90-941a-fe6c8e0b5bd5,exposed,2020-07-09,2,iPhone,Mobile Safari,0
+e1614006-0540-4d1a-9bc7-d2f0d15d73ca,control,2020-07-09,5,iPhone,Mobile Safari,1
+ec4c1cde-1e93-4b47-b5ea-9f31b8cc5295,control,2020-07-04,11,iPhone,Chrome Mobile iOS,1
+f934ff31-f037-4ed2-b19a-ff447aea2ad3,control,2020-07-07,17,iPhone,Mobile Safari UI/WKWebView,0
