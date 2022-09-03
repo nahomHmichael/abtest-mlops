@@ -98,6 +98,7 @@ if __name__ == "__main__":
         mlflow.log_metric("rmse", rmse)
         mlflow.log_metric("r2", r2)
         mlflow.log_metric("mae", mae)
+        mlflow.log_metric("Accuracy",metrics.accuracy_score(test_y,predicted_qualities)) 
 
         tracking_url_type_store = urlparse(mlflow.get_tracking_uri()).scheme
 
