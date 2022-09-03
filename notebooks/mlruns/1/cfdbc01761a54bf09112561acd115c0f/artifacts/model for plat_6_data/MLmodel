@@ -1,0 +1,16 @@
+artifact_path: model for plat_6_data
+flavors:
+  python_function:
+    env: conda.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    python_version: 3.10.4
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.1.2
+mlflow_version: 1.28.0
+model_uuid: 1ffb3222e1094fd49a2cbcbb6c191950
+run_id: cfdbc01761a54bf09112561acd115c0f
+utc_time_created: '2022-09-03 19:30:26.666238'

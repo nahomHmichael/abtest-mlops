@@ -1,0 +1,16 @@
+artifact_path: model for chrome_webview_data
+flavors:
+  python_function:
+    data: model.xgb
+    env: conda.yaml
+    loader_module: mlflow.xgboost
+    python_version: 3.10.4
+  xgboost:
+    code: null
+    data: model.xgb
+    model_class: xgboost.sklearn.XGBClassifier
+    xgb_version: 1.6.2
+mlflow_version: 1.28.0
+model_uuid: 08ef334580d4421fa54e01c9e044492f
+run_id: 058b0b0c7f0845d6a3ddafeaac66e693
+utc_time_created: '2022-09-03 19:51:15.744726'
