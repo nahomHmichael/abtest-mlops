@@ -1,0 +1,16 @@
+artifact_path: model for chrome_data
+flavors:
+  python_function:
+    env: conda.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    python_version: 3.10.4
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.1.2
+mlflow_version: 1.28.0
+model_uuid: fa20b1976a7e47b582de7d2a8ed62302
+run_id: 0a494e570cfb4f24a0cb363da4122584
+utc_time_created: '2022-09-03 18:28:29.080607'
