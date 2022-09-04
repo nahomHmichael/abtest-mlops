@@ -1,0 +1,15 @@
+artifact_uri: file:///home/nhgirma/Documents/GitHub/Group%20work/Final/abtest-mlops/notebooks/mlruns/1/eeac06968ecf48b194e3088017ae8909/artifacts
+end_time: 1662316162324
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: active
+name: ''
+run_id: eeac06968ecf48b194e3088017ae8909
+run_uuid: eeac06968ecf48b194e3088017ae8909
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1662316157291
+status: 3
+tags: []
+user_id: nhgirma
