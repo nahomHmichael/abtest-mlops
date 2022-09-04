@@ -66,3 +66,9 @@ class Plots:
         plt.xticks(fontsize=14)
         plt.yticks(fontsize=14)
         plt.show()
+    def plot_heatmap_from_correlation(correlation, title: str):
+        plt.figure(figsize=(14, 9))
+        sns.heatmap(correlation)
+        plt.title(title, size=18, fontweight='bold')
+        plt.show()        
+    

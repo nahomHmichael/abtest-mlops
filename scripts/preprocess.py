@@ -27,7 +27,16 @@ class Preprocess:
         except Exception:
             # self.logger.exception(
                 # 'Failed to Instantiate Preprocessing Class Object')
+                
             sys.exit(1)
+            
+            
+    def remove_duplicates(self,df) -> pd.DataFrame:
+        """
+        Returns a DataFrame where duplicate rows are removed
+        """
+        removables = df[df.duplicated()].index
+        return df.drop(index=removables, inplace=True)
 
     def get_numerical_columns(self, df):
         """Get numerical columns from dataframe."""
