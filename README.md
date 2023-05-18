@@ -1,4 +1,4 @@
-# 10 Academy Batch 6 Weekly Challenge: Week 2
+
 
 # A/B Hypothesis Testing: Ad campaign performance - using Machine Learning
 
